@@ -32,10 +32,11 @@ for char in all_characters:
                 char_fdata[keys[i]].append(elements[i].text.strip())
 
     df = pd.DataFrame.from_dict(char_fdata)
-    json_file = pd.DataFrame.to_json(df, orient='index')
+    json_file = pd.DataFrame.to_json(df,orient='index')
     parsed = json.loads(json_file)
-    with open('tekkenData/'+char+'-special.json', 'w') as outfile:
-        json.dump(parsed, outfile, indent = 4, sort_keys = True)
+    with open('tekken7Data/'+char+'-special.json', 'w') as outfile:
+        json.dump(parsed, outfile, indent = 4, sort_keys = False)
+
 
     # basic moves
     print("Scraping : ", char , " basic moves")
@@ -56,6 +57,6 @@ for char in all_characters:
     df = pd.DataFrame.from_dict(char_fdata)
     json_file = pd.DataFrame.to_json(df, orient='index')
     parsed = json.loads(json_file)
-    with open('tekkenData/'+char+'-basic.json', 'w') as outfile:
-        json.dump(parsed, outfile, indent = 4, sort_keys = True)
+    with open('tekken7Data/'+char+'-basic.json', 'w') as outfile:
+        json.dump(parsed, outfile, indent = 4, sort_keys = False)
 
