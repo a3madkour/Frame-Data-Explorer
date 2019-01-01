@@ -29,13 +29,18 @@ for char in all_characters:
             if( i >=len(elements)):
                 char_fdata[keys[i]].append("")
             else:
-                char_fdata[keys[i]].append(elements[i].text.strip())
+                char_fdata[keys[i]].append(elements[i].text.replace('.',',').strip())
 
     df = pd.DataFrame.from_dict(char_fdata)
     json_file = pd.DataFrame.to_json(df,orient='index')
     parsed = json.loads(json_file)
+    keys = list(parsed.keys())
+    for move in keys: 
+        command = parsed[move]['Command']
+        parsed[command] = parsed.pop(move)
+
     with open('tekken7Data/'+char+'-special.json', 'w') as outfile:
-        json.dump(parsed, outfile, indent = 4, sort_keys = False)
+        json.dump(parsed, outfile, indent = 4, ensure_ascii = False,sort_keys = False)
 
 
     # basic moves
@@ -52,11 +57,15 @@ for char in all_characters:
     for row in rows[1:]:
         elements = row.find_all('td')
         for i in range(len(keys)):
-            char_fdata[keys[i]].append(elements[i].text.strip())
+            char_fdata[keys[i]].append(elements[i].text.replace('.',',').strip())
 
     df = pd.DataFrame.from_dict(char_fdata)
     json_file = pd.DataFrame.to_json(df, orient='index')
     parsed = json.loads(json_file)
+    keys = list(parsed.keys())
+    for move in keys: 
+        command = parsed[move]['Command']
+        parsed[command] = parsed.pop(move)
     with open('tekken7Data/'+char+'-basic.json', 'w') as outfile:
-        json.dump(parsed, outfile, indent = 4, sort_keys = False)
+        json.dump(parsed, outfile, indent = 4,ensure_ascii = False, sort_keys = False)
 
