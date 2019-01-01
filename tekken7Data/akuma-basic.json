@@ -57,7 +57,7 @@
         "Block frame": "-8",
         "Hit frame": "+8",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "Homing"
     },
     "6": {
         "Command": "b+3",
@@ -137,7 +137,7 @@
         "Block frame": "-13?",
         "Hit frame": "-1?",
         "Counter hit frame": "-1?",
-        "Notes": ""
+        "Notes": "Wall bounce"
     },
     "14": {
         "Command": "f, F+3",
@@ -334,8 +334,8 @@
         "Hit level": "m",
         "Damage": "17",
         "Start up frame": "13",
-        "Block frame": "-7",
-        "Hit frame": "+5",
+        "Block frame": "-10",
+        "Hit frame": "+2",
         "Counter hit frame": "KND",
         "Notes": ""
     },

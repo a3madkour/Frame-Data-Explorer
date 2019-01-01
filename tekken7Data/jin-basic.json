@@ -36,7 +36,7 @@
         "Start up frame": "13~14",
         "Block frame": "-9~-8",
         "Hit frame": "+16~+17kg",
-        "Counter hit frame": "CS",
+        "Counter hit frame": "KND",
         "Notes": "Homing, Tail spin"
     },
     "4": {
@@ -123,11 +123,11 @@
         "Command": "d+1",
         "Hit level": "m",
         "Damage": "24",
-        "Start up frame": "21 cs15~",
+        "Start up frame": "21",
         "Block frame": "-7",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "Wall bounce"
     },
     "13": {
         "Command": "d+2",
@@ -154,9 +154,9 @@
         "Hit level": "l (TC)",
         "Damage": "13",
         "Start up frame": "16~17 cs6~",
-        "Block frame": "-13~-12",
-        "Hit frame": "-2~-1",
-        "Counter hit frame": "-2~-1",
+        "Block frame": "-12~-11",
+        "Hit frame": "-1~0",
+        "Counter hit frame": "-1~0",
         "Notes": ""
     },
     "16": {

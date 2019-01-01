@@ -5,8 +5,8 @@ import json
 soup = BeautifulSoup
 
 
-all_characters = ['akuma', 'alisa', 'asuka', 'bob', 'bryan', 'claudio', 'devil-jin', 'dragunov', 'eddy', 'eliza', 'feng', 'geese', 'gigas', 'heihachi', 'hwoarang', 'jack7', 'jin', 'josie',
-                  'katarina', 'kazumi', 'kazuya', 'king', 'kuma', 'lars', 'law', 'lee', 'leo', 'lili', 'lucky-chloe', 'master-raven', 'miguel', 'nina', 'noctis', 'paul', 'shaheen', 'steve', 'xiaoyu', 'yoshimitsu']
+all_characters = ['akuma', 'alisa', 'anna','armor-king','asuka', 'bob', 'bryan', 'claudio', 'devil-jin', 'dragunov', 'eddy', 'eliza', 'feng', 'geese', 'gigas', 'heihachi', 'hwoarang', 'jack7', 'jin', 'josie',
+                  'katarina', 'kazumi', 'kazuya', 'king', 'kuma', 'lars','lei', 'law', 'lee', 'leo', 'lili', 'lucky-chloe','marduk', 'master-raven', 'miguel', 'nina', 'noctis', 'paul', 'shaheen', 'steve', 'xiaoyu', 'yoshimitsu']
 
 for char in all_characters:
     webPage = "http://rbnorway.org/" + char + "-t7-frames/"

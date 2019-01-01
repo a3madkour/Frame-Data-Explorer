@@ -186,7 +186,7 @@
         "Start up frame": "21",
         "Block frame": "-12",
         "Hit frame": "+4s",
-        "Counter hit frame": "+4s",
+        "Counter hit frame": "+14g",
         "Notes": ""
     },
     "19": {
@@ -313,7 +313,7 @@
         "Command": "WS+1",
         "Hit level": "m",
         "Damage": "12",
-        "Start up frame": "15~16",
+        "Start up frame": "114",
         "Block frame": "-7~-6",
         "Hit frame": "+4~+5",
         "Counter hit frame": "+4~+5",
@@ -333,7 +333,7 @@
         "Command": "WS+3",
         "Hit level": "m",
         "Damage": "20",
-        "Start up frame": "19~20 js18~",
+        "Start up frame": "18 js18~",
         "Block frame": "-16~-15",
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",

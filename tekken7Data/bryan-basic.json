@@ -202,11 +202,11 @@
     "20": {
         "Command": "b+1",
         "Hit level": "m",
-        "Damage": "24",
-        "Start up frame": "20~21",
-        "Block frame": "+3~+4",
-        "Hit frame": "+5~+6s",
-        "Counter hit frame": "KND",
+        "Damage": "21",
+        "Start up frame": "20",
+        "Block frame": "+3",
+        "Hit frame": "+7s",
+        "Counter hit frame": "JG",
         "Notes": ""
     },
     "21": {
@@ -344,9 +344,9 @@
         "Hit level": "m(GUP)",
         "Damage": "18",
         "Start up frame": "19",
-        "Block frame": "-8",
-        "Hit frame": "+3",
-        "Counter hit frame": "+3",
+        "Block frame": "-10",
+        "Hit frame": "+1",
+        "Counter hit frame": "+1",
         "Notes": ""
     },
     "35": {

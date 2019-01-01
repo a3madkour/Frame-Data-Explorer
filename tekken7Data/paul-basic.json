@@ -266,7 +266,7 @@
         "Start up frame": "20~21",
         "Block frame": "-9~-8",
         "Hit frame": "KND",
-        "Counter hit frame": "CS 13~14",
+        "Counter hit frame": "CS",
         "Notes": "Homing"
     },
     "27": {
@@ -283,11 +283,11 @@
         "Command": "u/f+2",
         "Hit level": "m (TJ)",
         "Damage": "35",
-        "Start up frame": "39~40a",
-        "Block frame": "+8~+9",
+        "Start up frame": "34a js8",
+        "Block frame": "+9",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "Wall bounce"
     },
     "29": {
         "Command": "u/b+3",
@@ -373,7 +373,7 @@
         "Command": "WS+2",
         "Hit level": "m",
         "Damage": "20",
-        "Start up frame": "16~17",
+        "Start up frame": "15~16",
         "Block frame": "-14~-13",
         "Hit frame": "Launch",
         "Counter hit frame": "Launch",

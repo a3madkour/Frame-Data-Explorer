@@ -171,7 +171,7 @@
     },
     "17": {
         "Command": "d/b+2",
-        "Hit level": "m?",
+        "Hit level": "m",
         "Damage": "20",
         "Start up frame": "24~25",
         "Block frame": "-5~-4",
@@ -204,7 +204,7 @@
         "Hit level": "m",
         "Damage": "15",
         "Start up frame": "20~21",
-        "Block frame": "-18~-17",
+        "Block frame": "-16",
         "Hit frame": "CS",
         "Counter hit frame": "CS",
         "Notes": ""
@@ -222,7 +222,7 @@
     "22": {
         "Command": "b+3",
         "Hit level": "m",
-        "Damage": "16",
+        "Damage": "10",
         "Start up frame": "18",
         "Block frame": "-6",
         "Hit frame": "+6s",

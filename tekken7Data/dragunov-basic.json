@@ -272,11 +272,11 @@
     "27": {
         "Command": "u/f+1",
         "Hit level": "h",
-        "Damage": "18",
-        "Start up frame": "16",
-        "Block frame": "-7",
-        "Hit frame": "+9",
-        "Counter hit frame": "uKZD",
+        "Damage": "20",
+        "Start up frame": "15",
+        "Block frame": "-9",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
         "Notes": ""
     },
     "28": {
@@ -397,7 +397,7 @@
         "Block frame": "-9~-8",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "Wall bounce"
     },
     "40": {
         "Command": "WS+4",

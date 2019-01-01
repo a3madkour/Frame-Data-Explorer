@@ -174,9 +174,9 @@
         "Hit level": "m",
         "Damage": "20",
         "Start up frame": "20s",
-        "Block frame": "-6s",
-        "Hit frame": "+9s",
-        "Counter hit frame": "+9s",
+        "Block frame": "-9s",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
         "Notes": ""
     },
     "18": {
@@ -337,7 +337,7 @@
         "Block frame": "-5~-3",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Homing"
+        "Notes": "Homing, Tail spin"
     },
     "34": {
         "Command": "WS+4",

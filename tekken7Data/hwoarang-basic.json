@@ -102,12 +102,12 @@
     "10": {
         "Command": "d/f+3",
         "Hit level": "m",
-        "Damage": "17",
+        "Damage": "12",
         "Start up frame": "22~23",
-        "Block frame": "-12~-11",
-        "Hit frame": "+1~+2",
-        "Counter hit frame": "CS",
-        "Notes": ""
+        "Block frame": "-14~-13",
+        "Hit frame": "-4~-3",
+        "Counter hit frame": "-4~-3",
+        "Notes": "Power crush"
     },
     "11": {
         "Command": "d/f+4",
@@ -232,7 +232,7 @@
     "23": {
         "Command": "b+3",
         "Hit level": "m",
-        "Damage": "20",
+        "Damage": "17",
         "Start up frame": "16~18",
         "Block frame": "-19~-17",
         "Hit frame": "Launch (JG?)",

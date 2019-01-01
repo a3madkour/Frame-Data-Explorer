@@ -213,10 +213,10 @@
         "Command": "b+2",
         "Hit level": "m",
         "Damage": "14",
-        "Start up frame": "15",
-        "Block frame": "-10",
-        "Hit frame": "+4",
-        "Counter hit frame": "+4",
+        "Start up frame": "14",
+        "Block frame": "-11",
+        "Hit frame": "+3",
+        "Counter hit frame": "+3",
         "Notes": ""
     },
     "22": {
@@ -262,12 +262,12 @@
     "26": {
         "Command": "u/b+3",
         "Hit level": "m",
-        "Damage": "30",
-        "Start up frame": "30~34",
-        "Block frame": "+3~+7s",
-        "Hit frame": "+5~+9s",
-        "Counter hit frame": "KND",
-        "Notes": ""
+        "Damage": "31",
+        "Start up frame": "30",
+        "Block frame": "+-2~+2s",
+        "Hit frame": "+6~+10s",
+        "Counter hit frame": "+6~+10s",
+        "Notes": "Power crush"
     },
     "27": {
         "Command": "u+3",
